@@ -1,0 +1,47 @@
+[
+    {
+        "company_title": "HOMEADVISOR",
+        "description": "HomeAdvisor is looking for an experienced Front End Developer to join our Software Development team. In general, we are looking for someone who has experience working on public-facing web properties, and being part of a fast-paced, fun-loving team. Our environment can be fun, loose, iterative, and even chaotic at times - you've been warned. Code every day in HTML, CSS, and JavaScript/jQuery to make our site highly interactive. Integrate client-side code with web services, social platforms, and our Java-based infrastructure. Produce pixel-perfect layouts and sites from mock-ups provided by key business partners in Creative Design, UX/UI, and Product Development.",
+        "job_title": "Front End Developer"
+    },
+    {
+        "company_title": "OMBUD",
+        "description": "We’re looking for a Front-End Developer who can make an immediate impact building complex UIs that empower organizations to make intelligent decisions. You will work in the heart of downtown Denver within a small, agile team of developers and a UX Designer to deliver new features and improvements to our product. We are looking for experienced and passionate developers who want to make a difference while working in a startup environment that prioritizes our team and user community over unsustainable growth.",
+        "job_title": "Front End Developer"
+    },
+    {
+        "company_title": "TEAMSNAP",
+        "description": "About Us Do you love working with cross-platform (mobile, web and api) applications, maybe even consider yourself full stack? Do you have React skills that leave people in awe? Do you enjoy shipping code often, like nearly every day? We should talk! TeamSnap is looking for a Sr. Front-End Developer with strong React JS and React Native experience to join our remote software development team.  TeamSnap is a fun, flexible, growing company that",
+        "job_title": "Sr. Front-End Software Developer"
+    },
+    {
+        "company_title": "PLACEWISE DIGITAL",
+        "description": "PlaceWise Digital is looking for a Front-End Developer to join our development team. Managing the client-side JavaScript and jQuery components on our sites, you will work on everything from carousels to interactive maps to our ad display platform. This is a great role for someone who wants to build their skills and have a big impact in a real production environment. You will drive innovation and visual impact as we push the envelope of web design",
+        "job_title": "Front-End Developer"
+    },
+    {
+        "company_title": "PAIRIN",
+        "description": "We are looking for a talented, enthusiastic, and experienced Front End Web Developer to join our engineering team. You will be working with our technology team to continue to expand our modular React front end applications, supported by a decentralized Rails platform. You will also be working in a team oriented environment, collaborating with both business and engineering. PAIRIN is a social enterprise company whose mission is to make education",
+        "job_title": "Senior Front End Web Developer"
+    },
+    {
+        "company_title": "SUITED CONNECTOR",
+        "description": "Position Opportunity: A highly skilled, motivated Javascript/UI developer to join our team supporting our public facing web sites and internal intranet applications. As a Javascript/UI developer, you will be working on various mission critical projects supporting a fast-paced entrepreneurial business.  You will have the opportunity to develop applications using various cutting-edge technologies while following an Agile process. Job Duties",
+        "job_title": "Sr Front-end Developer"
+    },
+    {
+        "company_title": "HomeAdvisor",
+        "description": "HomeAdvisor is looking for an experienced Front End Developer to join our Software Development team. In general, we are looking for someone who has experience working on public-facing web properties, and being part of a fast-paced, fun-loving team. Our environment can be fun, loose, iterative, and even chaotic at times - you've been warned. Code every day in HTML, CSS, and JavaScript/jQuery to make our site highly interactive.\nIntegrate client-side code with web services, social platforms, and our Java-based infrastructure.\nProduce pixel-perfect layouts and sites from mock-ups provided by key business partners in Creative Design, UX/UI, and Product Development.",
+        "job_title": "Front End Developer"
+    },
+    {
+        "company_title": "MARIJUANA BUSINESS DAILY",
+        "description": "Front-End Web Developer Marijuana Business Daily (MJBizDaily), since 2011 the best-known producer of B2B news and trade shows serving executives and major investors in America's $8 billion cannabis industry, is seeking a talented front-end web developer to create and maintain all of our web properties. In this role you will collaborate with our fun and talented team to take on web projects and drive them to a successful conclusion. You'll be",
+        "job_title": "Front-End Web Developer"
+    },
+    {
+        "company_title": "Ombud",
+        "description": "We’re looking for a Front-End Developer who can make an immediate impact building complex UIs that empower organizations to make intelligent decisions. You will work in the heart of downtown Denver within a small, agile team of developers and a UX Designer to deliver new features and improvements to our product. We are looking for experienced and passionate developers who want to make a difference while working in a startup environment that prioritizes our team and user community over unsustainable growth.",
+        "job_title": "Front End Developer"
+    }
+]
