@@ -26,11 +26,13 @@ let urls = [];
 //   })
 
 
+
 nightmare
   .goto('https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=true&clickSource=searchBtn&typedKeyword=softw&sc.keyword=Software+Developer&locT=C&locId=1148170&jobType=')
   .evaluate(() => {
     const aTags = Array.from(document.querySelectorAll('.jobLink'));
     const hrefs = aTags.map(tag => tag.href)
+
     return hrefs;
   })
   .end()
