@@ -15,8 +15,8 @@ app.listen(app.get('port'), () => {
   console.log(`App is running on ${app.get('port')}`);
 });
 
-app.locals.jobsData = require('./jobsData.json');
-app.locals.jobTypesData = require('./jobTypesData.json');
+app.locals.jobsData = require('./utils/jobsData.json');
+app.locals.jobTypesData = require('./utils/jobTypesData.json');
 
 app.get('/api/v1/jobs', (request, response) => {
   database('jobs')
