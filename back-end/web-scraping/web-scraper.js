@@ -32,7 +32,9 @@ const getJobData = async url => {
       })
       .end();
     return result;
-  } catch (error) {}
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 const cleanData = async () => {
