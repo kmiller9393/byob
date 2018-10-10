@@ -45,6 +45,9 @@ const getJobData = async url => {
       console.log(error)
     }) 
     return result;
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 const cleanData = async () => {
