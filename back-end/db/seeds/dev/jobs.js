@@ -1,4 +1,4 @@
-const jobsData = require('../../../jobsData.json');
+const jobsData = require('../../../utils/jobsData.json');
 
 exports.seed = knex => {
   return knex('jobs')
