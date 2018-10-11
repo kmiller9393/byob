@@ -13,6 +13,10 @@ app.listen(app.get('port'), () => {
   console.log(`App is running on ${app.get('port')}`);
 });
 
+app.get('/', (request, response) => {
+  response.send('Hell Travis CI.');
+});
+
 app.get('/api/v1/jobs', (request, response) => {
   database('jobs')
     .select()
