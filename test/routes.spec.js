@@ -138,7 +138,7 @@ describe('API Endpoints', () => {
       });
   });
 
-  it.skip('DELETE /api/v1/jobs/:id should delete a job with a specific id', done => {
+  it('DELETE /api/v1/jobs/:id should delete a job with a specific id', done => {
     chai
       .request(app)
       .delete('/api/v1/jobs/3')

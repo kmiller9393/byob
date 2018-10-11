@@ -1,9 +1,15 @@
 language: node_js
 node_js:
-  - "node"
+  - node
 services:
   - postgresql
 before_script:
   - psql -c 'CREATE DATABASE job_board_test;' -U postgres
 notifications:
   email: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: mobGZeWbqdlbroRwDfpfE0qrMxLhdpUTzwXDIUITXxF9eX2KcPW6+/tD7N02K7XIrgzijfcPghd3SjXVQB6qk3hZp7QhewE1ZmpxAiGP3Fa9SD7G/AbMccN8eprV30pzagce3VWiSbyfXjogiFJcIo+I6j2jHJQH+Q7DjgOsybrJcijnyBufaRayKK1LfIKJmkWJz4wBFxFuV8bXFsWGeHb9ljatJc3GgkKvMm7tybkRzQ0WEA1FKZ1x9VN1OD2MleFqjLU+OSepOHrKNqv0HzCde1ajV0gznRHseWhImyIN/61tWdM+S1avdDeIgG7af0V5IFQjaAUKtMYdgjzm6eLRC0ZmYK841uc09IN1WRD8CEe8Sjha+4xAdpV2qnEy/f5cGY0j4fIdSuSGJNB5zRVx2GQEdB/mI9BsxIRK4aKMj8rKLDKacNgI9TlvCtNrxmZ3T/fHgdW9w96cyzhKGU9nQp5G3v+/7hU1iiqwYpOafoDifLXg0VTfky4JVkGc2P4bm/Xp+Q7GGgSJULfBtIAxtr6TVrSqhJm8LTz0iNqGnAkGml34RUKwIFU3WolFs/eAEnzKiRhK+p42fsFLvUDy9O080eqK9cdfOqDVUr6xGs5ehmdFfB1pAjIGeT00MrUNwsBwC7CfkUXn7ZRcA2OjrWbIKzjm3v/0r0idmAc=
+  app: dev-connection
+  skip_cleanup: true
