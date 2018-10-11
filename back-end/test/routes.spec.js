@@ -138,24 +138,6 @@ describe('API Endpoints', () => {
       });
   });
 
-  // it('POST /api/v1/students should create a new student', done => {
-  //   chai
-  //     .request(server)
-  //     .post('/api/v1/students')
-  //     .send({
-  //       lastname: 'Fiebiger',
-  //       program: 'FE',
-  //       enrolled: true
-  //     })
-  //     .end((error, response) => {
-  //       response.should.have.status(201);
-  //       response.should.be.json;
-  //       response.body.should.have.property('message');
-  //       response.body.message.should.equal('Student successfully added');
-  //       done();
-  //     });
-  // });
-
   it.skip('DELETE /api/v1/jobs/:id should delete a job with a specific id', done => {
     chai
       .request(app)

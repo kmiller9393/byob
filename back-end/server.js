@@ -3,6 +3,7 @@ const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
 const database = require('knex')(configuration);
 const app = express();
+
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
@@ -11,6 +12,10 @@ app.set('port', process.env.PORT || 3000);
 
 app.listen(app.get('port'), () => {
   console.log(`App is running on ${app.get('port')}`);
+});
+
+app.get('/', (request, response) => {
+  response.send('Hell Travis CI.');
 });
 
 app.get('/api/v1/jobs', (request, response) => {
