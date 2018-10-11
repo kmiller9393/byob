@@ -146,7 +146,7 @@ app.patch('/api/v1/jobs/:id/edit', (request, response) => {
     .update('company', company)
     .update('location', location)
     .then(response => {
-      return response.status(200).json(id);
+      return response.status(200).json({ id });
     })
     .catch(error => {
       return response.status(500).json({ error });
@@ -161,11 +161,25 @@ app.delete('/api/v1/jobs/:id', (request, response) => {
     .del()
     .then(() => {
       response
-        .status(202)
+        .status(200)
         .json({ id })
         .catch(error => {
           response.status(500).json({ error });
         });
+    });
+});
+
+app.delete('/api/v1/jobs/:id/remove-status', (request, response) => {
+  const { id } = request.params;
+
+  database('jobs')
+    .where('id', id)
+    .update('status', '')
+    .then(response => {
+      return response.status(200).json({ id });
+    })
+    .catch(error => {
+      return response.status(500).json({ error });
     });
 });
 
