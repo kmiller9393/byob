@@ -1,26 +1,21 @@
 [
   {
-    "id": 1,
     "job_title": "Front End Developer",
     "average_salary": 75000
   },
   {
-    "id": 2,
     "job_title": "Back End Developer",
     "average_salary": 75000
   },
   {
-    "id": 3,
     "job_title": "Back End Developer",
     "average_salary": 72000
   },
   {
-    "id": 4,
     "job_title": "Full Stack Developer",
     "average_salary": 85000
   },
   {
-    "id": 5,
     "job_title": "Front End Developer",
     "average_salary": 77000
   }
