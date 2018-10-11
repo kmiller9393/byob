@@ -7,13 +7,19 @@ const getUrls = async () => {
   try {
     const allLinks = await nightmare
       .goto(
-        'https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=true&clickSource=searchBtn&typedKeyword=softw&sc.keyword=Software+Developer&locT=C&locId=1148170&jobType='
+        'https://www.builtincolorado.com/jobs?f[0]=job-category_developer-engineer-javascript'
       )
       .evaluate(() => {
-        const aTags = Array.from(document.querySelectorAll('.jobLink'));
-        const hrefs = aTags.map(tag => tag.href);
-
-        return hrefs;
+        const containers = Array.from(document.querySelectorAll('.center-main'));
+        const jobData = containers.map(container => {
+        const job_title = container.querySelector('.title').innerText;
+        const company = container.querySelector('.company-title').innerText;
+        const location = container.querySelector('.job-location').innerText;
+        const urlContainer = container.querySelector('.wrap-view-page');
+        const url = urlContainer.querySelector('a').href 
+        return {job_title, company, location, url}
+        })
+        return jobData;
       })
       .end();
     return allLinks;
@@ -27,18 +33,11 @@ const getJobData = async url => {
   const result = await nightmare
     .goto(url)
     .evaluate(() => {
-      const jobWrap = document.querySelector('.jobViewJobTitleWrap');
-      const job_title = jobWrap.querySelector('h2').innerText;
-      const headerWrap = document.querySelector('.logoHeader');
-      const companyWrapper = headerWrap.querySelector('.empHeader');
-      const companyAndLocation = Array.from(
-        companyWrapper.querySelectorAll('span')
-      );
-      const company = companyAndLocation[0].innerText;
-      const location = companyAndLocation[1].innerText;
-      const description = document.querySelector('.jobDescriptionContent')
-        .innerText;
-      return { job_title, company, location, description };
+
+      const wrapper = document.querySelector('.job-description')
+      const ptags = Array.from(wrapper.querySelectorAll('p'))
+      const description = ptags.map(ptag => ptag.innerText).join()
+      return description
     })
     .end()
     .then(data => {
@@ -52,11 +51,12 @@ const getJobData = async url => {
 
 const cleanData = async () => {
   const urls = await getUrls();
+  console.log(urls)
   try {
     const jobs = urls.reduce(async (acc, url) => {
       let allJobData = await acc;
-      let jobData = await getJobData(url);
-      allJobData = [...allJobData, jobData];
+      let description = await getJobData(url.url);
+      allJobData = [...allJobData, {...url, description}];
       return allJobData;
     }, Promise.resolve([]));
     return jobs;
@@ -65,9 +65,14 @@ const cleanData = async () => {
   }
 };
 
+// const retrievedUrls = getUrls();
+
+// retrievedUrls.then(data => {
+//   console.log(data)
+// })
+
 const jobs = cleanData();
 
-// console.log(jobs)
 
 jobs.then(data => {
   console.log(data);

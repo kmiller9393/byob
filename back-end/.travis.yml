@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - 'node'
+  - '10'
 services:
   - postgresql
 before_script:
-  - psql -c 'CREATE DATABASE job_board_test;' -U postgres
+  - psql -c 'create database job_board_test;' -U postgres
 notifications:
   email: false
