@@ -1,22 +1,97 @@
 [
   {
     "job_title": "Application Architect",
-    "average_salary": 85000
+    "average_salary": 85000,
+    "id": 1
   },
   {
     "job_title": "Software Engineer",
-    "average_salary": 75000
+    "average_salary": 75000,
+    "id": 2
   },
   {
     "job_title": "Software Engineer",
-    "average_salary": 72000
+    "average_salary": 72000,
+    "id": 3
   },
   {
     "job_title": "Full Stack Developer",
-    "average_salary": 85000
+    "average_salary": 85000,
+    "id": 4
   },
   {
     "job_title": "Front End Developer",
-    "average_salary": 77000
+    "average_salary": 77000,
+    "id": 5
+  },
+  {
+    "job_title": "QA Automation Engineer",
+    "average_salary": 80000,
+    "id": 6
+  },
+  {
+    "job_title": "Solution Principal",
+    "average_salary": 82000,
+    "id": 7
+  },
+  {
+    "job_title": "PHP Developer Tier III",
+    "average_salary": 82000,
+    "id": 8
+  },
+  {
+    "job_title": "PHP Developer Tier II",
+    "average_salary": 90000,
+    "id": 9
+  },
+  {
+    "job_title": "Platform Engineer",
+    "average_salary": 85000,
+    "id": 10
+  },
+  {
+    "job_title": "Senior Software Engineer",
+    "average_salary": 95000,
+    "id": 11
+  },
+  {
+    "job_title": "Software Developer",
+    "average_salary": 80000,
+    "id": 12
+  },
+  {
+    "job_title": "Back End Developer",
+    "average_salary": 80000,
+    "id": 13
+  },
+  {
+    "job_title": "Web Developer",
+    "average_salary": 80000,
+    "id": 14
+  },
+  {
+    "job_title": "Associate Threat Full Stack Engineer",
+    "average_salary": 85000,
+    "id": 15
+  },
+  {
+    "job_title": "Senior Software QA Engineer",
+    "average_salary": 95000,
+    "id": 16
+  },
+  {
+    "job_title": "QA Software Engineer",
+    "average_salary": 80000,
+    "id": 17
+  },
+  {
+    "job_title": "Sr. QE Engineer",
+    "average_salary": 95000,
+    "id": 18
+  },
+  {
+    "job_title": "Web Application Developer",
+    "average_salary": 80000,
+    "id": 19
   }
 ]
