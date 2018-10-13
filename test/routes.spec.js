@@ -28,9 +28,7 @@ describe('API Endpoints', () => {
         response.body[0].should.have.property('id');
         response.body[0].id.should.equal(1);
         response.body[0].should.have.property('description');
-        response.body[0].description.should.equal(
-          'A good job'
-        );
+        response.body[0].description.should.equal('A good job');
         response.body[0].should.have.property('company');
         response.body[0].company.should.equal('DHI GROUP, INC.');
         response.body[0].should.have.property('location');
@@ -106,15 +104,13 @@ describe('API Endpoints', () => {
         description: 'We are looking for someone to test.',
         company: 'SpotX',
         location: 'Denver, CO',
-        status: ''
+        status: 'none'
       })
       .end((error, response) => {
         response.should.have.status(201);
         response.should.be.json;
-        response.body.should.have.property('message');
-        response.body.message.should.equal(
-          'Job information successfully added!'
-        );
+        response.body.should.have.property('id');
+        response.body.id.should.equal(24);
         done();
       });
   });
