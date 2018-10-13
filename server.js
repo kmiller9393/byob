@@ -157,23 +157,23 @@ app.delete('/api/v1/jobs/:id', (request, response) => {
     .where('id', id)
     .del()
     .then(() => {
-      response
-        .status(200)
-        .json({ id })
-        .catch(error => {
-          response.status(500).json({ error });
-        });
+      response.status(200).json({ id });
+    })
+    .catch(error => {
+      response.status(500).json({ error });
     });
 });
 
-app.delete('/api/v1/jobs/:id/remove-status', (request, response) => {
+app.delete('/api/v1/job-types/:id', (request, response) => {
   const { id } = request.params;
 
-  database('jobs')
+  database('job_types')
     .where('id', id)
-    .update('status', '')
-    .then(response => {
-      return response.status(200).json({ id });
+    .del()
+    .then(() => {
+      response => {
+        return response.status(200).json({ id });
+      };
     })
     .catch(error => {
       return response.status(500).json({ error });
