@@ -73,17 +73,14 @@ app.post('/api/v1/jobs', (request, response) => {
     'description',
     'company',
     'location',
-    'job_title_id'
+    'status'
   ]) {
     if (!job[requiredParameter]) {
       return response.status(422).json({
-        error: `Expected format: { description: <String>, company: <String>, location: <String>, job_title_id: <Integer> }. You're missing a "${requiredParameter}" 
+        error: `Expected format: { description: <String>, company: <String>, location: <String>, status: <String>, job_title_id: <Integer> }. You're missing a "${requiredParameter}" 
         property.`
       });
     }
-    return response
-      .status(201)
-      .json({ message: 'Job information successfully added!' });
   }
 
   database('jobs')
