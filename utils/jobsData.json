@@ -1,163 +1,163 @@
 [
-    {
-        "company": "DHI GROUP, INC.",
-        "job_title_id": 1,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "TRAVELERS HAVEN",
-        "job_title_id": 2,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "WOWZA MEDIA SYSTEMS",
-        "job_title_id": 2,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "TALENTREEF",
-        "job_title_id": 6,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "ALTERYX, INC.",
-        "job_title_id": 2,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "SLALOM",
-        "job_title_id": 7,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "BLUETENT",
-        "job_title_id": 8,
-        "location": "WESTERN COLORADO",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "BLUETENT",
-        "job_title_id": 9,
-        "location": "WESTERN COLORADO",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "MARIJUANA BUSINESS DAILY",
-        "job_title_id": 5,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "CONVERCENT",
-        "job_title_id": 2,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "IBOTTA",
-        "job_title_id": 10,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "FOUR WINDS INTERACTIVE",
-        "job_title_id": 5,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "PAYFONE",
-        "job_title_id": 11,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "ENVYSION",
-        "job_title_id": 12,
-        "location": "GREATER BOULDER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "DENVER PUBLIC LIBRARY",
-        "job_title_id": 13,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "ISONAS INC.",
-        "job_title_id": 11,
-        "location": "GREATER BOULDER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "CANVAS TECHNOLOGY",
-        "job_title_id": 14,
-        "location": "GREATER BOULDER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "CARBON BLACK, INC.",
-        "job_title_id": 15,
-        "location": "GREATER BOULDER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "WOWZA MEDIA SYSTEMS",
-        "job_title_id": 16,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "WOWZA MEDIA SYSTEMS",
-        "job_title_id": 17,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "XERO",
-        "job_title_id": 11,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "SLALOM",
-        "job_title_id": 18,
-        "location": "GREATER DENVER AREA",
-        "description": "A good job",
-        "status": ""
-    },
-    {
-        "company": "BOMBBOMB",
-        "job_title_id": 19,
-        "location": "COLORADO SPRINGS",
-        "description": "A good job",
-        "status": ""
-    }
+  {
+    "company": "DHI GROUP, INC.",
+    "job_title_id": 1,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "TRAVELERS HAVEN",
+    "job_title_id": 2,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "WOWZA MEDIA SYSTEMS",
+    "job_title_id": 2,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "TALENTREEF",
+    "job_title_id": 5,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "ALTERYX, INC.",
+    "job_title_id": 2,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "SLALOM",
+    "job_title_id": 6,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "BLUETENT",
+    "job_title_id": 7,
+    "location": "WESTERN COLORADO",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "BLUETENT",
+    "job_title_id": 8,
+    "location": "WESTERN COLORADO",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "MARIJUANA BUSINESS DAILY",
+    "job_title_id": 4,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "CONVERCENT",
+    "job_title_id": 2,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "IBOTTA",
+    "job_title_id": 9,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "FOUR WINDS INTERACTIVE",
+    "job_title_id": 4,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "PAYFONE",
+    "job_title_id": 10,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "ENVYSION",
+    "job_title_id": 11,
+    "location": "GREATER BOULDER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "DENVER PUBLIC LIBRARY",
+    "job_title_id": 12,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "ISONAS INC.",
+    "job_title_id": 10,
+    "location": "GREATER BOULDER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "CANVAS TECHNOLOGY",
+    "job_title_id": 13,
+    "location": "GREATER BOULDER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "CARBON BLACK, INC.",
+    "job_title_id": 14,
+    "location": "GREATER BOULDER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "WOWZA MEDIA SYSTEMS",
+    "job_title_id": 15,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "WOWZA MEDIA SYSTEMS",
+    "job_title_id": 16,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "XERO",
+    "job_title_id": 10,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "SLALOM",
+    "job_title_id": 17,
+    "location": "GREATER DENVER AREA",
+    "description": "A good job",
+    "status": ""
+  },
+  {
+    "company": "BOMBBOMB",
+    "job_title_id": 18,
+    "location": "COLORADO SPRINGS",
+    "description": "A good job",
+    "status": ""
+  }
 ]
