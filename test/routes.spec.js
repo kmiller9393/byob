@@ -24,17 +24,17 @@ describe('API Endpoints', () => {
         response.should.have.status(200);
         response.should.be.json;
         response.body.should.be.a('array');
-        response.body.length.should.equal(5);
+        response.body.length.should.equal(23);
         response.body[0].should.have.property('id');
         response.body[0].id.should.equal(1);
         response.body[0].should.have.property('description');
         response.body[0].description.should.equal(
-          'We are looking for a talented front end developer to join our growing team...'
+          'A good job'
         );
         response.body[0].should.have.property('company');
-        response.body[0].company.should.equal('HomeAdvisor');
+        response.body[0].company.should.equal('DHI GROUP, INC.');
         response.body[0].should.have.property('location');
-        response.body[0].location.should.equal('Denver, CO');
+        response.body[0].location.should.equal('GREATER DENVER AREA');
         response.body[0].should.have.property('job_title_id');
         response.body[0].job_title_id.should.equal(1);
         done();
@@ -49,13 +49,13 @@ describe('API Endpoints', () => {
         response.should.have.status(200);
         response.should.be.json;
         response.body.should.be.a('array');
-        response.body.length.should.equal(5);
+        response.body.length.should.equal(19);
         response.body[0].should.have.property('id');
         response.body[0].id.should.equal(1);
         response.body[0].should.have.property('job_title');
-        response.body[0].job_title.should.equal('Front End Developer');
+        response.body[0].job_title.should.equal('Application Architect');
         response.body[0].should.have.property('average_salary');
-        response.body[0].average_salary.should.equal(75000);
+        response.body[0].average_salary.should.equal(85000);
         done();
       });
   });
@@ -71,9 +71,9 @@ describe('API Endpoints', () => {
         response.body[0].should.have.property('id');
         response.body[0].id.should.equal(2);
         response.body[0].should.have.property('company');
-        response.body[0].company.should.equal('Conga');
+        response.body[0].company.should.equal('TRAVELERS HAVEN');
         response.body[0].should.have.property('location');
-        response.body[0].location.should.equal('Boulder, CO');
+        response.body[0].location.should.equal('GREATER DENVER AREA');
         response.body[0].should.have.property('job_title_id');
         response.body[0].job_title_id.should.equal(2);
         done();
@@ -91,7 +91,7 @@ describe('API Endpoints', () => {
         response.body[0].should.have.property('id');
         response.body[0].id.should.equal(3);
         response.body[0].should.have.property('job_title');
-        response.body[0].job_title.should.equal('Back End Developer');
+        response.body[0].job_title.should.equal('Software Engineer');
         response.body[0].should.have.property('average_salary');
         response.body[0].average_salary.should.equal(72000);
         done();
