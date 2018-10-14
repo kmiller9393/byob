@@ -16,6 +16,7 @@ app.listen(app.get('port'), () => {
 
 app.get('/', (request, response) => {
   response.send('Hello Travis CI.');
+  console.log(response.query);
 });
 
 app.get('/api/v1/jobs', (request, response) => {
