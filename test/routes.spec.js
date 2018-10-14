@@ -47,7 +47,7 @@ describe('API Endpoints', () => {
         response.should.have.status(200);
         response.should.be.json;
         response.body.should.be.a('array');
-        response.body.length.should.equal(19);
+        response.body.length.should.equal(18);
         response.body[0].should.have.property('id');
         response.body[0].id.should.equal(1);
         response.body[0].should.have.property('job_title');
@@ -89,9 +89,9 @@ describe('API Endpoints', () => {
         response.body[0].should.have.property('id');
         response.body[0].id.should.equal(3);
         response.body[0].should.have.property('job_title');
-        response.body[0].job_title.should.equal('Software Engineer');
+        response.body[0].job_title.should.equal('Full Stack Developer');
         response.body[0].should.have.property('average_salary');
-        response.body[0].average_salary.should.equal(72000);
+        response.body[0].average_salary.should.equal(85000);
         done();
       });
   });
@@ -139,10 +139,23 @@ describe('API Endpoints', () => {
       .request(app)
       .delete('/api/v1/jobs/3')
       .end((error, response) => {
-        response.should.have.status(202);
+        response.should.have.status(200);
         response.should.be.json;
         response.body.should.be.a('object');
-        response.body.id.should.equal(3);
+        response.body.id.should.equal('3');
+      });
+    done();
+  });
+
+  it('DELETE /api/v1/job-types/:id', done => {
+    chai
+      .request(app)
+      .delete('/api/v1/job-types/4')
+      .end((error, response) => {
+        response.should.have.status(200);
+        response.should.be.json;
+        response.body.should.be.a('object');
+        response.body.id.should.equal('4');
       });
     done();
   });
