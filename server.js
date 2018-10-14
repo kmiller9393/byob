@@ -136,10 +136,10 @@ app.patch('/api/v1/jobs/:id', (request, response) => {
     .where('id', id)
     .update('status', status)
     .then(response => {
-      return response.status(200).json(status);
+      response.status(200).json({ id });
     })
     .catch(error => {
-      return response.status(500).json({ error });
+      response.status(500).json({ error });
     });
 });
 
