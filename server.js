@@ -19,6 +19,19 @@ app.get('/', (request, response) => {
 });
 
 app.get('/api/v1/jobs', (request, response) => {
+  const query = request.query;
+
+  if (query.company) {
+    return database('jobs')
+      .where('company', 'like', `%${query.company}%`)
+      .then(job => {
+        response.status(200).json(job);
+      })
+      .catch(error => {
+        response.status(500).json({ error });
+      });
+  }
+
   database('jobs')
     .select()
     .then(jobs => {
@@ -103,9 +116,6 @@ app.post('/api/v1/job-types', (request, response) => {
         property.`
       });
     }
-    return response
-      .status(201)
-      .json({ message: 'Job information successfully added!' });
   }
 
   database('job_types')
@@ -171,9 +181,7 @@ app.delete('/api/v1/job-types/:id', (request, response) => {
     .where('id', id)
     .del()
     .then(() => {
-      response => {
-        return response.status(200).json({ id });
-      };
+      response.status(200).json({ id });
     })
     .catch(error => {
       return response.status(500).json({ error });
