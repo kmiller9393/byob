@@ -115,21 +115,19 @@ describe('API Endpoints', () => {
       });
   });
 
-  it('POST /api/v1/job-types should add a job', done => {
+  it('POST /api/v1/job-types should add a job type', done => {
     chai
       .request(app)
       .post('/api/v1/job-types')
       .send({
-        job_title: 'Software Developer',
-        average_salary: 78500
+        job_title: 'Junior Developer',
+        average_salary: 73500
       })
       .end((error, response) => {
         response.should.have.status(201);
         response.should.be.json;
-        response.body.should.have.property('message');
-        response.body.message.should.equal(
-          'Job information successfully added!'
-        );
+        response.body.should.have.property('id');
+        response.body.id.should.equal(24);
         done();
       });
   });
@@ -143,8 +141,8 @@ describe('API Endpoints', () => {
         response.should.be.json;
         response.body.should.be.a('object');
         response.body.id.should.equal('3');
+        done();
       });
-    done();
   });
 
   it('DELETE /api/v1/job-types/:id', done => {
@@ -156,7 +154,21 @@ describe('API Endpoints', () => {
         response.should.be.json;
         response.body.should.be.a('object');
         response.body.id.should.equal('4');
+        done();
       });
-    done();
+  });
+
+  it('PATCH /api/v1/jobs/:id should change the status of a job based on id requested', done => {
+    chai
+      .request(app)
+      .patch('/api/v1/jobs/3')
+      .send({
+        status: 'saved'
+      })
+      .end((error, response) => {
+        response.should.have.status(200);
+        response.body.should.equal('saved');
+        done();
+      });
   });
 });
