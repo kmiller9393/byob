@@ -3,12 +3,15 @@ const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
 const database = require('knex')(configuration);
 const app = express();
+const cors = require('cors');
 
 const bodyParser = require('body-parser');
 
+app.use(cors());
+
 app.use(bodyParser.json());
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3010);
 
 app.listen(app.get('port'), () => {
   console.log(`App is running on ${app.get('port')}`);
@@ -136,10 +139,10 @@ app.patch('/api/v1/jobs/:id', (request, response) => {
     .where('id', id)
     .update('status', status)
     .then(response => {
-      return response.status(200).json(status);
+      response.status(200).json({ id });
     })
     .catch(error => {
-      return response.status(500).json({ error });
+      response.status(500).json({ error });
     });
 });
 
