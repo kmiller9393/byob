@@ -145,6 +145,17 @@ describe('API Endpoints', () => {
       });
   });
 
+  it('DELETE /api/v1/jobs/:id should return a 500 status code if invalid id is requested', done => {
+    chai  
+      .request(app)
+      .delete('/api/v1/jobs/')
+      .end((error, response) => {
+        response.should.have.status(404)
+
+      })
+      done();
+  })
+
   it('DELETE /api/v1/job-types/:id', done => {
     chai
       .request(app)
