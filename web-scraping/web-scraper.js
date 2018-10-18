@@ -81,7 +81,7 @@ jobs.then(result => {
   const newJobsData = cleanData(result);
 
   fs.writeFile(
-    './utils/jobsData.json',
+    './utils/finalData.json',
     JSON.stringify(newJobsData, null, 4),
     error => {
       if (error) {

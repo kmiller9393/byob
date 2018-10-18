@@ -1,47 +1,47 @@
 [
   {
-    "job_title": "Application Architect",
+    "job_title": "Software Development Engineer in Test",
     "average_salary": 85000,
     "id": 1
   },
   {
-    "job_title": "Software Engineer",
+    "job_title": "Principal CDN Engineer",
     "average_salary": 75000,
     "id": 2
   },
   {
-    "job_title": "Full Stack Developer",
+    "job_title": "Software Engineer",
     "average_salary": 85000,
     "id": 3
   },
   {
-    "job_title": "Front End Developer",
-    "average_salary": 77000,
+    "job_title": "Senior Developer",
+    "average_salary": 90000,
     "id": 4
   },
   {
-    "job_title": "QA Automation Engineer",
-    "average_salary": 80000,
+    "job_title": "Technical Solution Lead",
+    "average_salary": 88000,
     "id": 5
   },
   {
-    "job_title": "Solution Principal",
+    "job_title": "Senior Software Engineer",
     "average_salary": 82000,
     "id": 6
   },
   {
-    "job_title": "PHP Developer Tier III",
+    "job_title": "Engineering Technical Lead",
     "average_salary": 82000,
     "id": 7
   },
   {
-    "job_title": "PHP Developer Tier II",
-    "average_salary": 90000,
+    "job_title": "Front End Engineer",
+    "average_salary": 75000,
     "id": 8
   },
   {
-    "job_title": "Platform Engineer",
-    "average_salary": 85000,
+    "job_title": "Full Stack Developer",
+    "average_salary": 95000,
     "id": 9
   },
   {
@@ -50,63 +50,73 @@
     "id": 10
   },
   {
-    "job_title": "Software Developer",
+    "job_title": "Lead Front End Engineer",
     "average_salary": 80000,
     "id": 11
   },
   {
-    "job_title": "Back End Developer",
+    "job_title": "Platform Developer",
     "average_salary": 80000,
     "id": 12
   },
   {
-    "job_title": "Web Developer",
+    "job_title": "ETL Developer",
     "average_salary": 80000,
     "id": 13
   },
   {
-    "job_title": "Associate Threat Full Stack Engineer",
+    "job_title": "Senior Full Stack Engineer",
     "average_salary": 85000,
     "id": 14
   },
   {
-    "job_title": "Senior Software QA Engineer",
+    "job_title": "Lead Software Developer",
     "average_salary": 95000,
     "id": 15
   },
   {
-    "job_title": "QA Software Engineer",
+    "job_title": "Software Developer",
     "average_salary": 80000,
     "id": 16
   },
   {
-    "job_title": "Sr. QE Engineer",
+    "job_title": "Senior Software Developer",
     "average_salary": 95000,
     "id": 17
   },
   {
-    "job_title": "Web Application Developer",
+    "job_title": "Front End Developer",
     "average_salary": 80000,
     "id": 18
   },
   {
-    "job_title": "Senior Full Stack Developer",
+    "job_title": "Front End Engineering Manager",
     "average_salary": 120000,
     "id": 19
   },
   {
-    "job_title": "Principal Engineer, Systems Design Video Systems",
+    "job_title": "QA Automation Engineer",
     "average_salary": 82000,
     "id": 20
   },
   {
-    "job_title": "Senior Web Developer",
+    "job_title": "PHP Developer Tier III",
     "average_salary": 100000,
     "id": 21
   },
   {
-    "job_title": "Technical Solution Lead (Microsoft Stack)",
+    "job_title": "PHP Developer Tier II",
     "average_salary": 100000,
     "id": 22
+  },
+  {
+    "job_title": "Back End Developer",
+    "average_salary": 100000,
+    "id": 23
+  },
+  {
+    "job_title": "Web Developer",
+    "average_salary": 100000,
+    "id": 24
   }
 ]

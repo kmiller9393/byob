@@ -6,7 +6,7 @@ const fetchJobData = async () => {
   try {
     const allLinks = await nightmare
       .goto(
-        'https://www.builtincolorado.com/jobs?f[0]=job-category_developer-engineer-javascript'
+        'https://www.builtincolorado.com/jobs?f[0]=job-category_developer-engineer-javascript&page=2'
       )
       .evaluate(() => {
         const containers = Array.from(
@@ -37,7 +37,7 @@ const getJobData = async url => {
       .evaluate(() => {
         const wrapper = document.querySelector('.job-description');
         const ptags = wrapper.querySelector('p');
-        const description = ptags.innerText
+        const description = ptags.innerText;
         return description;
       })
       .end();
@@ -81,7 +81,7 @@ jobs.then(result => {
   const newJobsData = cleanData(result);
 
   fs.writeFile(
-    './utils/jobsData2.json',
+    './utils/finalData.json',
     JSON.stringify(newJobsData, null, 4),
     error => {
       if (error) {
