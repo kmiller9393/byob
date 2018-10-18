@@ -88,5 +88,25 @@
     "job_title": "Web Application Developer",
     "average_salary": 80000,
     "id": 18
+  },
+  {
+    "job_title": "Senior Full Stack Developer",
+    "average_salary": 120000,
+    "id": 19
+  },
+  {
+    "job_title": "Principal Engineer, Systems Design Video Systems",
+    "average_salary": 82000,
+    "id": 20
+  },
+  {
+    "job_title": "Senior Web Developer",
+    "average_salary": 100000,
+    "id": 21
+  },
+  {
+    "job_title": "Technical Solution Lead (Microsoft Stack)",
+    "average_salary": 100000,
+    "id": 22
   }
 ]
