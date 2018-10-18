@@ -1,0 +1,160 @@
+[
+    {
+        "company": "THOUGHTWORKS",
+        "job_title": "Software Developer",
+        "location": "GREATER DENVER AREA",
+        "description": "Our developers have been contributing code to major organizations and open source projects for over 25 years now. They’ve also been writing books, speaking at conferences, and helping push software development forward -- changing companies and even industries along the way.",
+        "status": ""
+    },
+    {
+        "company": "BILLTRUST",
+        "job_title": "Senior Software Developer",
+        "location": "GREATER DENVER AREA",
+        "description": "It's not just cliché. The heart of Billtrust is our people. Our executives know it, our co-workers believe it, and our clients recognize it. Billtrust is enjoying remarkable success with significant year-over-year growth over the past 15 years. And, we're transforming the industry with leading-edge technologies that enable us to deliver our payment cycle management solution from the cloud. Our team members not only drive that expansion, they benefit by it with empowerment and rewarding professional progress.",
+        "status": ""
+    },
+    {
+        "company": "MAXWELL",
+        "job_title": "Senior Software Engineer",
+        "location": "GREATER DENVER AREA",
+        "description": "Maxwell is on a mission to transform the $8.5T residential mortgage market by reimagining how loan officers work together with borrowers to buy a home. \n\nBased in beautiful Denver, Colorado, Maxwell is a VC-funded, Techstars-backed company with a mission to empower mortgage lenders to be more connected, productive, and successful.\n\nWHO ARE WE?\nMaxwell was founded in 2015 by three friends who were fed up with the arduous process of getting a mortgage. We believe everyone who is buying a home deserves a delightful mortgage experience. \n\nAfter speaking with hundreds of lenders, homebuyers and real estate agents, Maxwell was born as a solution to provide mortgage professionals a modern platform that transforms and enhances their workflow. Buying a home is one of the happiest, most fulfilling experiences of a person’s life. We help make the mortgage just as fun.\n\nWe also believe that doing well means also doing good: a portion of all of Maxwell’s revenues is dedicated to building homes for those who need them most in Haiti and El Salvador.\n\nWHO ARE YOU?\nYou are an experienced senior engineer looking for a position where you’ll get to touch all levels of the stack. As a full-time member of the engineering team, you’ll help build software and contribute to decisions that will steer the product’s future. As a senior engineer you will also mentor and influence our team of talented technologists. \n\nYou need to be comfortable with deployment environments, writing database queries, building out backend services, and implementing UI that enhances the user experience. We integrate with many third party services, so experience with a variety of third party APIs is a plus. \n\nYou’ll be part of our product team which is design, frontend and backend engineering combined. We believe that everyone who works on a product is both a product and a technical contributor. You’ll use your experience to inform our engineering process and decisions when building new features, enhancing existing functionality, and ensuring scalability and availability of the entire platform.\n\nWHAT IS OUR STACK?\nWe are a typical Ruby on Rails stack with React on the frontend.\n\nBack-end: Ruby on Rails (Rails 4.x)\nFront-end: React, Redux, Javascript, JQuery, SLIM, SCSS, HTML 5, CSS 3\nDatabase: Postgres\nInfrastructure: Heroku, AWS\n\nWHAT YOU GET\nAn opportunity to be a key part of an agile team of thinkers and doers collaborating to help people complete complex financial decisions simply. We offer meaningful equity at an early stage company, a competitive salary, top-tier medical, dental and vision insurance, and generous vacation time.",
+        "status": ""
+    },
+    {
+        "company": "HOMEADVISOR",
+        "job_title": "Front End Developer",
+        "location": "GREATER DENVER AREA",
+        "description": "HomeAdvisor is looking for an experienced Front End Developer to join our Software Development team. In general, we are looking for someone who has experience working on public-facing web properties, and being part of a fast-paced, fun-loving team. Our environment can be fun, loose, iterative, and even chaotic at times - you've been warned.",
+        "status": ""
+    },
+    {
+        "company": "QSC, LLC",
+        "job_title": "Software Engineer",
+        "location": "GREATER BOULDER AREA",
+        "description": "JOB OVERVIEW",
+        "status": ""
+    },
+    {
+        "company": "ONLY SKY",
+        "job_title": "Full Stack Developer",
+        "location": "GREATER DENVER AREA",
+        "description": "Only Sky is a venture-backed company providing an activity booking and management platform to the mountain destination space, with partners across the U.S., Chile, New Zealand, Japan, and Europe.\n\nWe enable consumers across the globe to book bespoke mountain experiences with Pros from top destinations.\n\nIn Q2 2016, Only Sky acquired ShredBetter.com, the #1 place in the world for instructor profiles, ratings, reviews, and more growing it to over 8,000 users to date.\n\nInvestors include: Nelnet, Revelis Capital Group, Jeremy Bloom, Bode Miller, Ben Franklin Tech Partners, Nebraska Angels, Rockies Venture Club, Rockies Venture Fund, Delaware Crossing Investor Group",
+        "status": ""
+    },
+    {
+        "company": "GUILD EDUCATION",
+        "job_title": "Lead Front-End Software Engineer",
+        "location": "GREATER DENVER AREA",
+        "description": "Guild, the leading education benefits platform and one of Denver's fastest growing startups, is increasing economic mobility for working adults in America and providing education and support to help every student survive and thrive in the economy of tomorrow. Our platform helps employers offer education as a benefit to their employees by connecting employers' workforces with our network of nonprofit universities and education institutions that focus on serving the needs of working adults. And, our team of retention coaches helps each employee navigate the path back to school, providing individualized support from day one through graduation. In order to accelerate our growth and achieve our mission to serve 1000s more students, we've raised over $70 million from top tier investors including Felicis Ventures, Bessemer Venture Partners, and Redpoint Ventures (among other social impact and VC partners!).",
+        "status": ""
+    },
+    {
+        "company": "LOGRHYTHM",
+        "job_title": "Senior Software Engineer, Web",
+        "location": "GREATER BOULDER AREA",
+        "description": "Overview",
+        "status": ""
+    },
+    {
+        "company": "LOGRHYTHM",
+        "job_title": "Software Engineer, Web",
+        "location": "GREATER BOULDER AREA",
+        "description": "LogRhythm is a world leader in NextGen Security Information and Event Management (SIEM), empowering organizations to successfully reduce risk by rapidly detecting, responding to and neutralizing damaging cyberthreats. Our platform combines user and entity behavior analytics (UEBA), network traffic and behavior analytics (NTBA) and security orchestration, automation & response (SOAR) in a single end-to-end solution. Among other accolades, LogRhythm is positioned as a Leader in Gartner’s SIEM Magic Quadrant. We are based in Boulder, CO with offices in Maidenhead UK, Australia, Singapore, Germany and The Netherlands. ",
+        "status": ""
+    },
+    {
+        "company": "JUMPCLOUD",
+        "job_title": "Software Engineer",
+        "location": "GREATER BOULDER AREA",
+        "status": ""
+    },
+    {
+        "company": "HAVENLY",
+        "job_title": "Engineering Manager - Frontend",
+        "location": "GREATER DENVER AREA",
+        "description": "Havenly is interior design for real people. We're a funded tech startup in Denver, and we believe everyone deserves a beautiful home they love. As the frontend engineering manager at Havenly, you will lead a team of engineers to ship delightful experiences to every customer and potential customer to visit Havenly’s site. We expect that you will be both mentor and team leader for your engineers. This means that you will help with technical decisions, coach the careers of the engineers reporting to you, and partner with stakeholders cross-functionally - and you will definitely be writing code. On a typical day, you can expect to to coach engineers to level up their technical and soft skills, to plan and scope future projects, and to help fix a small bug or guide a new feature development.",
+        "status": ""
+    },
+    {
+        "company": "TALENTREEF",
+        "job_title": "QA Automation Engineer",
+        "location": "GREATER DENVER AREA",
+        "description": "Position Summary",
+        "status": ""
+    },
+    {
+        "company": "ALTERYX, INC.",
+        "job_title": "Software Engineer, C++ Analytics Products",
+        "location": "GREATER DENVER AREA",
+        "status": ""
+    },
+    {
+        "company": "BLUETENT",
+        "job_title": "PHP Developer Tier III",
+        "location": "WESTERN COLORADO",
+        "description": "Who is Bluetent?:",
+        "status": ""
+    },
+    {
+        "company": "BLUETENT",
+        "job_title": "PHP Developer Tier II",
+        "location": "WESTERN COLORADO",
+        "description": "Who is Bluetent?:",
+        "status": ""
+    },
+    {
+        "company": "MARIJUANA BUSINESS DAILY",
+        "job_title": "Front-End Web Developer",
+        "location": "GREATER DENVER AREA",
+        "description": "Front-End Web Developer",
+        "status": ""
+    },
+    {
+        "company": "CONVERCENT",
+        "job_title": "Software Engineer (.NET)",
+        "location": "GREATER DENVER AREA",
+        "description": "The Software Engineer will be responsible for every aspect of the SDLC for new and existing applications features. The ideal candidate would be a self-starter and results oriented engineer, willing to work in an entrepreneurial, start-up environment. This role requires an individual to possess high desire to be creative, empowered, and manage their own destiny. This position reports to the VP, Engineering.",
+        "status": ""
+    },
+    {
+        "company": "FOUR WINDS INTERACTIVE",
+        "job_title": "Front End Web Software Developer",
+        "location": "GREATER DENVER AREA",
+        "description": "With 6,000+ clients and over 500,000 screens deployed, FWI’s software platform is driving Visual Communications to millions of people every day, all over the world. We are a values-driven organization that encourages our employees to bring their authentic self to work every day and empowers everyone to make a tangible impact on our products, clients and culture. Our employees are passionate about their craft, but they are also parents, skiers, comedians, runners, animal lovers, foodies and phenomenal human beings who appreciate our dedication to providing a healthy work/life balance.",
+        "status": ""
+    },
+    {
+        "company": "PAYFONE",
+        "job_title": "Senior Software Engineer",
+        "location": "GREATER DENVER AREA",
+        "description": "Help shape the future of how people experience the digital world. You’ll be at the forefront of innovating and inventing how industries, from financial to enterprise, use mobile data to curate solutions for mobile identity authentication while, of course, enjoying a cold brew in the office, if that’s your style. We are actively looking to add exceptional people to our team who align with how we envision ourselves culturally and professionally. As a lens to how outsiders see Payfone, you will represent a team of people who love what they do and who they work with.",
+        "status": ""
+    },
+    {
+        "company": "ENVYSION",
+        "job_title": "Software Developer",
+        "location": "GREATER BOULDER AREA",
+        "description": "Envysion, a leading provider of video based SaaS technology solutions for retailers, fast casual restaurants and wireless dealers, is seeking an Software Developer.",
+        "status": ""
+    },
+    {
+        "company": "DENVER PUBLIC LIBRARY",
+        "job_title": "Back End Developer",
+        "location": "GREATER DENVER AREA",
+        "description": "Work downtown at the Central Library contributing to the development and maintenance of Denver Public Library's evolving range of digital services, including its websites. Use strong programming and application architecture skills as a backend developer to create digital experiences that help people be better people. Play a critical role in helping the Digital User Experience team build world-class digital services for a world-class library. Foster effective communication with a variety of end users in order to build customer-centric digital experiences. ",
+        "status": ""
+    },
+    {
+        "company": "ISONAS INC.",
+        "job_title": "Senior Software Engineer",
+        "location": "GREATER BOULDER AREA",
+        "description": "ISONAS, recently acquired by Allegion, has an immediate opportunity for a Senior Software Engineer to join our Boulder, Colorado team. ISONAS has the right technology at the right time in combination with a highly talented, hard-working team.",
+        "status": ""
+    },
+    {
+        "company": "CANVAS TECHNOLOGY",
+        "job_title": "Web Developer",
+        "location": "GREATER BOULDER AREA",
+        "status": ""
+    }
+]

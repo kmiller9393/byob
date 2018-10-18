@@ -1,322 +1,324 @@
 [
   {
-    "company": "DHI GROUP, INC.",
+    "company": "IHS MARKIT DIGITAL",
     "job_title_id": 1,
-    "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
+    "location": "GREATER BOULDER AREA",
+    "description": "Required skills:,Advanced experience automating and testing API’s and applications with:",
+    "status": "none"
   },
   {
-    "company": "TRAVELERS HAVEN",
+    "company": "T-MOBILE HOME + ENTERTAINMENT",
     "job_title_id": 2,
     "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
+    "description": "Job Description:\nThis position will be a member of the team responsible for the design, development and implementation of the video services platform.",
+    "status": "none"
   },
   {
-    "company": "WOWZA MEDIA SYSTEMS",
-    "job_title_id": 2,
+    "company": "GUSTO",
+    "job_title_id": 3,
     "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
+    "description": "Here’s what you’ll do day-to-day:,Here’s what we’re looking for:,Learn more about the team:",
+    "status": "none"
   },
   {
-    "company": "TALENTREEF",
+    "company": "BLUEMODUS",
+    "job_title_id": 4,
+    "location": "GREATER DENVER AREA",
+    "description": "We're looking for a Senior Web Developer, who is self-starter, can think on his/her feet.",
+    "status": "none"
+  },
+  {
+    "company": "BLUEMODUS",
     "job_title_id": 5,
     "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
+    "description": "BlueModus is looking for a talented technical professional to lead a group of .Net developers.",
+    "status": "none"
   },
   {
-    "company": "ALTERYX, INC.",
-    "job_title_id": 2,
-    "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "SLALOM",
-    "job_title_id": 6,
-    "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "BLUETENT",
-    "job_title_id": 7,
-    "location": "WESTERN COLORADO",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "BLUETENT",
-    "job_title_id": 8,
-    "location": "WESTERN COLORADO",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "MARIJUANA BUSINESS DAILY",
-    "job_title_id": 4,
-    "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "CONVERCENT",
-    "job_title_id": 2,
-    "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "IBOTTA",
-    "job_title_id": 9,
-    "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "FOUR WINDS INTERACTIVE",
-    "job_title_id": 4,
-    "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "PAYFONE",
-    "job_title_id": 10,
-    "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "ENVYSION",
-    "job_title_id": 11,
-    "location": "GREATER BOULDER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "DENVER PUBLIC LIBRARY",
-    "job_title_id": 12,
-    "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "ISONAS INC.",
-    "job_title_id": 10,
-    "location": "GREATER BOULDER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "CANVAS TECHNOLOGY",
-    "job_title_id": 13,
-    "location": "GREATER BOULDER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "CARBON BLACK, INC.",
-    "job_title_id": 14,
-    "location": "GREATER BOULDER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "WOWZA MEDIA SYSTEMS",
-    "job_title_id": 15,
-    "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "WOWZA MEDIA SYSTEMS",
-    "job_title_id": 16,
-    "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "XERO",
-    "job_title_id": 10,
-    "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "SLALOM",
-    "job_title_id": 17,
-    "location": "GREATER DENVER AREA",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "BOMBBOMB",
-    "job_title_id": 18,
-    "location": "COLORADO SPRINGS",
-    "description": "A good job",
-    "status": ""
-  },
-  {
-    "company": "SALT",
-    "job_title_id": 19,
-    "location": "GREATER DENVER AREA",
-    "description": "Join the saltiest team around in our heroic effort to reinvent finance for the blockchain era. In the heart of the Mile High City, crypto holders all over the world.",
-    "status": ""
-},
-{
-    "company": "TRAVELERS HAVEN",
-    "job_title_id": 10,
-    "location": "GREATER DENVER AREA",
-    "status": ""
-},
-{
-    "company": "T-MOBILE HOME + ENTERTAINMENT",
-    "job_title_id": 20,
-    "location": "GREATER DENVER AREA",
-    "description": "Job Description:\nPrincipal This position will be a member of the team responsible for the design",
-    "status": ""
-},
-{
-    "company": "BLUEMODUS",
-    "job_title_id": 21,
-    "location": "GREATER DENVER AREA",
-    "description": "We're looking for a Senior Web Developer, who is self-starter, can think on his/her feet, play well with others and/or Sitefinity ",
-    "status": ""
-},
-{
-    "company": "BLUEMODUS",
-    "job_title_id": 22,
-    "location": "GREATER DENVER AREA",
-    "description": "BlueModus is looking for a talented technical professional to lead a group of .Net developers, could it be you?",
-    "status": ""
-},
-{
     "company": "TRAININGPEAKS (A PEAKSWARE COMPANY)",
-    "job_title_id": 10,
+    "job_title_id": 6,
     "location": "GREATER BOULDER AREA",
-    "description": "Who We Are",
-    "status": ""
-},
-{
+    "description": "Who We Are,TrainingPeaks provides the complete web, mobile and desktop solution for enabling smart and effective endurance training.",
+    "status": "none"
+  },
+  {
     "company": "BLINKER",
-    "job_title_id": 2,
+    "job_title_id": 3,
     "location": "GREATER DENVER AREA",
-    "description": "Why work with us:",
-    "status": ""
-},
-{
+    "description": "Why work with us:,Blinker is a Denver-based mobile app that puts people in control of car ownership.",
+    "status": "none"
+  },
+  {
     "company": "RECURLY",
-    "job_title_id": 12,
+    "job_title_id": 7,
     "location": "GREATER BOULDER AREA",
-    "description": "We are looking for an energetic and dynamic engineering team lead to help build our core payments infrastructure and evolve our payment gateway integrations.",
-    "status": ""
-},
-{
+    "description": "We are looking for an energetic and dynamic engineering team lead.",
+    "status": "none"
+  },
+  {
     "company": "HEALTHGRADES",
-    "job_title_id": 2,
+    "job_title_id": 3,
     "location": "GREATER DENVER AREA",
-    "description": "As a Software Engineer within our data engineering group.",
-    "status": ""
-},
-{
+    "description": "As a Software Engineer within our data engineering group, you will collaborate with cross-functional database and product development teams.",
+    "status": "none"
+  },
+  {
     "company": "PERCOLATE",
+    "job_title_id": 8,
+    "location": "GREATER DENVER AREA",
+    "description": "Since 2011, Percolate has addressed the enormous challenges presented by enterprise marketing operations",
+    "status": "none"
+  },
+  {
+    "company": "ROBUSTWEALTH",
     "job_title_id": 4,
     "location": "GREATER DENVER AREA",
-    "description": "Since 2011, Percolate has addressed the enormous challenges presented by enterprise marketing operations.",
-    "status": ""
-},
-{
+    "description": "RobustWealth is a fast-paced wealth management company that is changing the way investment advisors",
+    "status": "none"
+  },
+  {
     "company": "ROBUSTWEALTH",
-    "job_title_id": 10,
-    "location": "GREATER DENVER AREA",
-    "description": "RobustWealth is a fast-paced wealth management company that is changing the way investment advisors, banks, and enterprises are doing business.",
-    "status": ""
-},
-{
-    "company": "ROBUSTWEALTH",
-    "job_title_id": 10,
-    "location": "GREATER DENVER AREA",
-    "description": "RobustWealth is a fast paced wealth management company that is changing the way investment advisors, banks, and enterprises are doing business.",
-    "status": ""
-},
-{
-    "company": "JUMPCLOUD",
-    "job_title_id": 10,
-    "location": "GREATER BOULDER AREA",
-    "status": ""
-},
-{
-    "company": "HAVENLY",
-    "job_title_id": 4,
-    "location": "GREATER DENVER AREA",
-    "description": "Havenly is interior design for real people. We're a funded tech startup in Denver, and we believe everyone deserves a beautiful home they love.",
-    "status": ""
-},
-{
-    "company": "OMBUD",
     "job_title_id": 9,
     "location": "GREATER DENVER AREA",
-    "description": "Ombud is looking for a Platform Developer who can make an immediate impact building scalable systems that empower organizations to make intelligent decisions.",
-    "status": ""
-},
-{
+    "description": "RobustWealth is a fast paced wealth management company that is changing the way investment advisors",
+    "status": "none"
+  },
+  {
+    "company": "JUMPCLOUD",
+    "job_title_id": 6,
+    "location": "GREATER BOULDER AREA",
+    "description": "",
+    "status": "none"
+  },
+  {
+    "company": "HAVENLY",
+    "job_title_id": 11,
+    "location": "GREATER DENVER AREA",
+    "description": "Havenly is interior design for real people.",
+    "status": "none"
+  },
+  {
+    "company": "OMBUD",
+    "job_title_id": 12,
+    "location": "GREATER DENVER AREA",
+    "description": "Ombud is looking for a Platform Developer who can make an immediate impact building scalable",
+    "status": "none"
+  },
+  {
     "company": "BLUE MOON DIGITAL, INC.",
     "job_title_id": 13,
     "location": "GREATER DENVER AREA",
-    "description": "Working as a member of Blue Moon Digital, Inc.’s BI Team, the ETL Developer & Data Modeler will be focused on the implementation of fault tolerant.",
-    "status": ""
-},
-{
+    "description": "Working as a member of Blue Moon Digital, Inc.’s BI Team.",
+    "status": "none"
+  },
+  {
     "company": "GOSPOTCHECK",
-    "job_title_id": 19,
+    "job_title_id": 14,
     "location": "GREATER DENVER AREA",
-    "description": "What You’ll Do",
-    "status": ""
-},
-{
+    "description": "What You’ll Do,What We’ll Achieve,Who You Are,GoSpotCheck offers competitive salaries and full benefits.",
+    "status": "none"
+  },
+  {
     "company": "THOUGHTWORKS",
-    "job_title_id": 19,
+    "job_title_id": 15,
     "location": "GREATER DENVER AREA",
     "description": "Our developers have been contributing code to major organizations and open source projects for over 25 years now.",
-    "status": ""
-},
-{
+    "status": "none"
+  },
+  {
     "company": "THOUGHTWORKS",
-    "job_title_id": 10,
+    "job_title_id": 17,
     "location": "GREATER DENVER AREA",
-    "description": "Can you spot poorly written code?",
-    "status": ""
-},
-{
+    "description": "Can you spot poorly written code?,Do you look at challenges as opportunities instead of roadblocks?",
+    "status": "none"
+  },
+  {
     "company": "THRIVEHIVE",
-    "job_title_id": 2,
+    "job_title_id": 3,
     "location": "GREATER DENVER AREA",
-    "description": "ThriveHive is seeking an engineer to help us design and build rock solid software, including support for killer mobile and web applications.",
-    "status": ""
-},
-{
+    "description": "ThriveHive is seeking an engineer to help us design and build rock solid software.",
+    "status": "none"
+  },
+  {
     "company": "ANDCULTURE",
-    "job_title_id": 4,
+    "job_title_id": 8,
     "location": "GREATER DENVER AREA",
-    "description": "Our Software Engineers go through the full software development lifecycle. They participate in the design, testing and execution of the code that is developed.",
-    "status": ""
-},
-{
+    "description": "Our Software Engineers go through the full software development lifecycle.",
+    "status": "none"
+  },
+  {
     "company": "BRANDZOOKA",
-    "job_title_id": 2,
+    "job_title_id": 16,
     "location": "GREATER BOULDER AREA",
-    "description": "Summary:",
-    "status": ""
-},
-{
+    "description": "Summary:,Brandzooka is seeking a well-rounded software developer with a passion for problem solving.",
+    "status": "none"
+  },
+  {
     "company": "DIGITALGLOBE",
-    "job_title_id": 2,
+    "job_title_id": 3,
     "location": "GREATER DENVER AREA",
-    "description": " ",
-    "status": ""
-}
+    "description": " ,Our team works collaboratively to solve complex problems.",
+    "status": "none"
+  },
+  {
+    "company": "THOUGHTWORKS",
+    "job_title_id": 16,
+    "location": "GREATER DENVER AREA",
+    "description": "Our developers have been contributing code to major organizations and open source projects for over 25 years now.",
+    "status": "none"
+  },
+  {
+    "company": "BILLTRUST",
+    "job_title_id": 17,
+    "location": "GREATER DENVER AREA",
+    "description": "It's not just cliché. The heart of Billtrust is our people.",
+    "status": "none"
+  },
+  {
+    "company": "MAXWELL",
+    "job_title_id": 6,
+    "location": "GREATER DENVER AREA",
+    "description": "Maxwell is on a mission to transform the $8.5T residential mortgage market.",
+    "status": "none"
+  },
+  {
+    "company": "HOMEADVISOR",
+    "job_title_id": 18,
+    "location": "GREATER DENVER AREA",
+    "description": "HomeAdvisor is looking for an experienced Front End Developer to join our Software Development team.",
+    "status": "none"
+  },
+  {
+    "company": "QSC, LLC",
+    "job_title_id": 3,
+    "location": "GREATER BOULDER AREA",
+    "description": "JOB OVERVIEW",
+    "status": "none"
+  },
+  {
+    "company": "ONLY SKY",
+    "job_title_id": 9,
+    "location": "GREATER DENVER AREA",
+    "description": "Only Sky is a venture-backed company providing an activity booking and management platform to the mountain destination space.",
+    "status": "none"
+  },
+  {
+    "company": "GUILD EDUCATION",
+    "job_title_id": 11,
+    "location": "GREATER DENVER AREA",
+    "description": "Guild is the leading education benefits platform and one of Denver's fastest growing startups.",
+    "status": "none"
+  },
+  {
+    "company": "LOGRHYTHM",
+    "job_title_id": 6,
+    "location": "GREATER BOULDER AREA",
+    "description": "Overview",
+    "status": "none"
+  },
+  {
+    "company": "LOGRHYTHM",
+    "job_title_id": 3,
+    "location": "GREATER BOULDER AREA",
+    "description": "LogRhythm is a world leader in NextGen Security Information and Event Management.",
+    "status": "none"
+  },
+  {
+    "company": "JUMPCLOUD",
+    "job_title_id": 3,
+    "location": "GREATER BOULDER AREA",
+    "description": "",
+    "status": "none"
+  },
+  {
+    "company": "HAVENLY",
+    "job_title_id": 19,
+    "location": "GREATER DENVER AREA",
+    "description": "Havenly is interior design for real people.",
+    "status": "none"
+  },
+  {
+    "company": "TALENTREEF",
+    "job_title_id": 20,
+    "location": "GREATER DENVER AREA",
+    "description": "Position Summary",
+    "status": "none"
+  },
+  {
+    "company": "ALTERYX, INC.",
+    "job_title_id": 3,
+    "location": "GREATER DENVER AREA",
+    "description": "",
+    "status": "none"
+  },
+  {
+    "company": "BLUETENT",
+    "job_title_id": 21,
+    "location": "WESTERN COLORADO",
+    "description": "Who is Bluetent?:",
+    "status": "none"
+  },
+  {
+    "company": "BLUETENT",
+    "job_title_id": 22,
+    "location": "WESTERN COLORADO",
+    "description": "Who is Bluetent?:",
+    "status": "none"
+  },
+  {
+    "company": "MARIJUANA BUSINESS DAILY",
+    "job_title_id": 18,
+    "location": "GREATER DENVER AREA",
+    "description": "Front-End Web Developer",
+    "status": "none"
+  },
+  {
+    "company": "CONVERCENT",
+    "job_title_id": 3,
+    "location": "GREATER DENVER AREA",
+    "description": "The Software Engineer will be responsible for every aspect of the SDLC for new and existing applications features.",
+    "status": "none"
+  },
+  {
+    "company": "FOUR WINDS INTERACTIVE",
+    "job_title_id": 18,
+    "location": "GREATER DENVER AREA",
+    "description": "With 6,000+ clients and over 500,000 screens deployed, FWI’s software platform is driving Visual Communications to millions of people every day",
+    "status": "none"
+  },
+  {
+    "company": "PAYFONE",
+    "job_title_id": 6,
+    "location": "GREATER DENVER AREA",
+    "description": "Help shape the future of how people experience the digital world.",
+    "status": "none"
+  },
+  {
+    "company": "ENVYSION",
+    "job_title_id": 16,
+    "location": "GREATER BOULDER AREA",
+    "description": "Envysion, a leading provider of video based SaaS technology solutions for retailers",
+    "status": "none"
+  },
+  {
+    "company": "DENVER PUBLIC LIBRARY",
+    "job_title_id": 23,
+    "location": "GREATER DENVER AREA",
+    "description": "Work downtown at the Central Library contributing to the development and maintenance of Denver Public Library's evolving range of digital services.",
+    "status": "none"
+  },
+  {
+    "company": "ISONAS INC.",
+    "job_title_id": 6,
+    "location": "GREATER BOULDER AREA",
+    "description": "ISONAS, recently acquired by Allegion, has an immediate opportunity for a Senior Software Engineer.",
+    "status": "none"
+  },
+  {
+    "company": "CANVAS TECHNOLOGY",
+    "job_title_id": 24,
+    "location": "GREATER BOULDER AREA",
+    "description": "",
+    "status": "none"
+  }
 ]
