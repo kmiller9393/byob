@@ -38,7 +38,10 @@ app.get('/api/v1/jobs', (request, response) => {
   database('jobs')
     .select()
     .then(jobs => {
-      response.status(200).json(jobs);
+      if(jobs.length) {
+        return response.status(200).json(jobs);
+      }
+      return response.status(404).json({ message: 'could not find all the jobs'});
     })
     .catch(error => {
       response.status(500).json({ error });
@@ -49,7 +52,10 @@ app.get('/api/v1/job-types', (request, response) => {
   database('job_types')
     .select()
     .then(job_types => {
-      response.status(200).json(job_types);
+      if(job_types.length) {
+        return response.status(200).json(job_types);
+      }
+      return response.status(404).json({ message: 'could not find all the job types'});
     })
     .catch(error => {
       response.status(500).json({ error });
@@ -62,7 +68,10 @@ app.get('/api/v1/jobs/:id', (request, response) => {
   database('jobs')
     .where('id', id)
     .then(job => {
-      response.status(200).json(job);
+      if(job.length) {
+        return response.status(200).json(job);
+      }
+      return response.status(404).json({ messgae: 'Could not find that job'});
     })
     .catch(error => {
       response.status(500).json({ error });
@@ -75,7 +84,10 @@ app.get('/api/v1/job-types/:id', (request, response) => {
   database('job_types')
     .where('id', id)
     .then(job_type => {
-      response.status(200).json(job_type);
+      if(job_type.length) {
+        return response.status(200).json(job_type);
+      }
+      return response.status(404).json({ message: 'could not find that job type'});
     })
     .catch(error => {
       response.status(500).json({ error });

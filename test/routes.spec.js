@@ -39,6 +39,16 @@ describe('API Endpoints', () => {
       });
   });
 
+  it('GET /api/v1/jobss should return the unhappy path', done => {
+    chai
+      .request(app)
+      .get('/api/v1/jobss')
+      .end((error, response) => {
+        response.should.have.status(404)
+        done();
+      })
+  })
+
   it('GET /api/v1/job-types should return all job types', done => {
     chai
       .request(app)
@@ -57,6 +67,16 @@ describe('API Endpoints', () => {
         done();
       });
   });
+
+  it('GET api/v1/job-typess should return the unhappy path', done => {
+    chai
+      .request(app)
+      .get('/api/v1/job-typess')
+      .end((err, response) => {
+        response.should.have.status(404)
+        done();
+      })
+  })
 
   it('GET /api/v1/jobs/:id should return a job', done => {
     chai
@@ -78,6 +98,16 @@ describe('API Endpoints', () => {
       });
   });
 
+  it.only('GET /api/v1/jobs/500000 should return the unhappy path', done => {
+    chai
+      .request(app)
+      .get('/api/v1/jobs/500000')
+      .end((err, response) => {
+        response.should.have.status(404)
+        done();
+      })
+  })
+
   it('GET /api/v1/job-types/:id should return all job types', done => {
     chai
       .request(app)
@@ -95,6 +125,16 @@ describe('API Endpoints', () => {
         done();
       });
   });
+
+  it('GET /api/v1/job-types/505050 should return the unhappy path', done => {
+    chai
+      .request(app)
+      .get('/api/v1/job-types/505050')
+      .end((err, response) => {
+        response.should.have.status(404)
+        done();
+      })
+  })
 
   it('POST /api/v1/jobs should add a job', done => {
     chai
