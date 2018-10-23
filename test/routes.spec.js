@@ -126,7 +126,7 @@ describe('API Endpoints', () => {
       });
   });
 
-  it('GET /api/v1/job-types/505050 should return the unhappy path', done => {
+  it.only('GET /api/v1/job-types/505050 should return the unhappy path', done => {
     chai
       .request(app)
       .get('/api/v1/job-types/505050')
@@ -185,7 +185,7 @@ describe('API Endpoints', () => {
       });
   });
 
-  it.only('DELETE /api/v1/jobs/:id should return a 500 status code if invalid id is requested', done => {
+  it('DELETE /api/v1/jobs/:id should return a 500 status code if invalid id is requested', done => {
     chai
       .request(app)
       .delete('/api/v1/jobs/')
