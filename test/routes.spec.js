@@ -44,10 +44,10 @@ describe('API Endpoints', () => {
       .request(app)
       .get('/api/v1/jobss')
       .end((error, response) => {
-        response.should.have.status(404)
+        response.should.have.status(404);
         done();
-      })
-  })
+      });
+  });
 
   it('GET /api/v1/job-types should return all job types', done => {
     chai
@@ -73,10 +73,10 @@ describe('API Endpoints', () => {
       .request(app)
       .get('/api/v1/job-typess')
       .end((err, response) => {
-        response.should.have.status(404)
+        response.should.have.status(404);
         done();
-      })
-  })
+      });
+  });
 
   it('GET /api/v1/jobs/:id should return a job', done => {
     chai
@@ -98,15 +98,15 @@ describe('API Endpoints', () => {
       });
   });
 
-  it.only('GET /api/v1/jobs/500000 should return the unhappy path', done => {
+  it('GET /api/v1/jobs/500000 should return the unhappy path', done => {
     chai
       .request(app)
       .get('/api/v1/jobs/500000')
       .end((err, response) => {
-        response.should.have.status(404)
+        response.should.have.status(404);
         done();
-      })
-  })
+      });
+  });
 
   it('GET /api/v1/job-types/:id should return all job types', done => {
     chai
@@ -131,10 +131,10 @@ describe('API Endpoints', () => {
       .request(app)
       .get('/api/v1/job-types/505050')
       .end((err, response) => {
-        response.should.have.status(404)
+        response.should.have.status(404);
         done();
-      })
-  })
+      });
+  });
 
   it('POST /api/v1/jobs should add a job', done => {
     chai
@@ -185,16 +185,15 @@ describe('API Endpoints', () => {
       });
   });
 
-  it('DELETE /api/v1/jobs/:id should return a 500 status code if invalid id is requested', done => {
-    chai  
+  it.only('DELETE /api/v1/jobs/:id should return a 500 status code if invalid id is requested', done => {
+    chai
       .request(app)
       .delete('/api/v1/jobs/')
       .end((error, response) => {
-        response.should.have.status(404)
-
-      })
-      done();
-  })
+        response.should.have.status(404);
+      });
+    done();
+  });
 
   it('DELETE /api/v1/job-types/:id', done => {
     chai
