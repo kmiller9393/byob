@@ -29,7 +29,6 @@
 		"status": "none",
 		"job_title_id": 2
 	}
-	...
 ]
 ```
 
@@ -54,8 +53,7 @@
 		"id": 5,
 		"job_title": "Front End Developer",
 		"average_salary": 77000
-	},
-    ...
+	}
 ]
 ```
 
